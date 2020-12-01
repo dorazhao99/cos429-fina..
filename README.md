@@ -2,7 +2,8 @@
 
 ## Overview 
 
-## Dependencies
+## Requirements
+* Python 3
 
 ## Related Repositories
 * [Women Also Snowboard (Burns et al, 2018](https://github.com/kayburns/women-snowboard/)
