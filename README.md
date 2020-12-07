@@ -29,14 +29,14 @@ The file naming convention is as follows: `{0}_{1}_{2}_{3}_{4}.jpg`:
 * {4} ranges from 1-5 and is only used for Flickr images
 
 ## Code
-* The code is contained in .ipynb notebooks found under the folder `code`. 
-* `Similar Image Finder.ipynb`
-* `Gender Categories.ipynb`
-* `COCO Images.ipynb`
-* `Data Augmentation.ipynb`
-* `Prepare Annotations.ipynb`
+* The code is contained in Jupyter notebooks found under the folder `code`. 
+* The adjustments made to the Equalizer code are located in this [fork][https://github.com/dorazhao99/women-snowboard] of the Women Also Snowboard repository. 
+* Our final weights for the trained models are available =.
 
 ## Results
 The error rate, ratio Delta, and sentence similarity can be calculated using `Analyze Results.ipynb` and `Semantic Similarity.ipynb`. To calcualte the MSCOCO Evaluation metrics (e.g. BLEU, ROUGE), use [Microsoft COCO Caption Evaluation](https://github.com/salaniz/pycocoevalcap). However, you will need to replace `eval.py` with `eval_special.py` and use `Evaluate Captions.ipynb`. 
 
 Our results along with the Grad-CAM heatmaps for each model are located in the `results` folder.  
+
+## Report
+Our paper is accessible in the file `report.pdf`
