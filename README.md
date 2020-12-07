@@ -1,7 +1,8 @@
 # Image Captioning Model Criticism with Similar Images
 
 ## Overview 
-
+* Present similar images for image captioning model criticism inspired by Stock and Cisse's 2018 paper "ConvNets and ImageNet Beyond Accuracy: Understanding Mistakes and Uncovering Biases" (ECCV 2018). 
+* Apply the methodology introduced to evaluate Hendricks and Burns et al.'s "Women Also Snowboard: Overcoming Bias in Image Captioning Models" (ECCV 2018). 
 ## Requirements
 * Python 3
 * pip
@@ -12,8 +13,6 @@ To install the required packages run
 ## Related Repositories
 * [Women Also Snowboard (Hendricks and Burns et al, 2018)](https://github.com/kayburns/women-snowboard/)
 * [Microsoft COCO Caption Evaluation](https://github.com/salaniz/pycocoevalcap)
-
-## Examples 
 
 ## Data
 The pairs of similar images found for MSCOCO and Flickr, augmented images, and image masks are found in the folder `images`. 
